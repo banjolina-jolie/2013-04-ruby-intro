@@ -6,12 +6,12 @@
 
 function Person(a, n) {
 
-	// "class" variable
-	Person.population += 1;
+  // "class" variable
+  Person.population += 1;
 
-	// instance variables
-	this.age = a;
-	this.first_name = n;
+  // instance variables
+  this.age = a;
+  this.first_name = n;
 }
 
 // "class" variable initialization
@@ -36,7 +36,7 @@ Person.population
 
 jon.age = 50
 
-jon.age		  
+jon.age     
 // => 50
 
 var Mary = new Person(35, "Mary");
@@ -44,8 +44,8 @@ var Mary = new Person(35, "Mary");
 Person.population  
 // => 2
 
-typeof Person	
+typeof Person 
 // => 'function'
 
-typeof jon 		
+typeof jon    
 // => 'object'
